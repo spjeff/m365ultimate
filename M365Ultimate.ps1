@@ -1,6 +1,6 @@
 <#
 .DESCRIPTION
-	Loads all Microsoft 365 cloud PowerShell modules in a single window.  No more wasted time jumping between download pages and locating various Import-Module from each product team.  Collected all here centraly to provide M365 admins with a single PowerShell PS1 to install and import every command they might need.  Enables cloud admin prodcutivity to quickly access every command.  Cheers.
+	Loads all Microsoft 365 cloud PowerShell modules in a single window.  No more wasted time jumping between download pages and locating various Import-Module from each product team.  Collected all here centrally to provide M365 admins with a single PowerShell PS1 to install and import every command they might need.  Enables cloud admin prodcutivity to quickly access every command.  Cheers.
 
 	* Based on https://docs.microsoft.com/en-us/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window
 	* Extended with additional community modules
