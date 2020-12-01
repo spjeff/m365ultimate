@@ -41,6 +41,9 @@ Import-Module -Name "SharePointPnPPowerShellOnline"
 # Teams (from https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-install)
 Import-Module -Name "MicrosoftTeams"
 
+# Data Gateway (from https://docs.microsoft.com/en-us/powershell/gateway/overview?view=datagateway-ps)
+Install-Module -Name "DataGateway"
+
 # PowerBI (from https://docs.microsoft.com/en-us/powershell/power-bi/overview?view=powerbi-ps)
 Import-Module -Name "MicrosoftPowerBIMgmt"
 Import-Module -Name "MicrosoftPowerBIMgmt.Admin"
