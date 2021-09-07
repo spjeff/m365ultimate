@@ -11,8 +11,8 @@
 .NOTES  
 	File Name:  M365Ultimate.ps1
 	Author   :  Jeff Jones  @spjeff
-	Version  :  1.0.1
-	Modified :  2020-12-04
+	Version  :  1.2
+	Modified :  2021-09-07
 
 .LINK
 	https://github.com/spjeff/m365ultimate
@@ -26,6 +26,9 @@ Set-ExecutionPolicy "RemoteSigned"
 # Azure Active Directory (from https://docs.microsoft.com/en-us/microsoft-365/enterprise/connect-to-microsoft-365-powershell)
 #REM Install-Module -Name "AzureAD"
 Install-Module -Name "AzureADPreview"
+
+# Azure Active Directory License (from https://github.com/nicolonsky/AzureADLicensing)
+Install-Module -Name "AzureADLicensing"
 
 # Exchange Online (from https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exo-v2-module)
 Install-Module -Name "ExchangeOnlineManagement"
